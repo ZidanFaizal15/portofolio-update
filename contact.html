@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Saya</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- AOS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        /* FIX NAVBAR AGAR LANGSUNG MUNCUL TANPA ANIMASI */
+        .navbar {
+            opacity: 1 !important;
+            transform: none !important;
+            animation: none !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-light bg-white shadow-sm fixed-top py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <a class="navbar-brand fw-bold fs-4" href="#">Portofolio</a>
+
+            <ul class="nav d-none d-md-flex">
+                <li class="nav-item"><a class="nav-link fw-semibold" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link fw-semibold" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link fw-semibold" href="gallery.html">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link fw-semibold active" href="contact.html">Contact</a></li>
+            </ul>
+
+            <!-- Tanggal/Waktu -->
+            <small class="fw-semibold d-none d-lg-block">
+                <span id="tanggalwaktu"></span>
+            </small>
+        </div>
+    </nav>
+
+    <!-- CONTACT SECTION -->
+    <section class="container text-center py-5" style="margin-top: 130px;">
+        <div class="mb-4" data-aos="fade-up">
+            <h2 class="fw-bold">Kontak Saya</h2>
+        </div>
+
+        <div class="row justify-content-center g-5">
+
+            <!-- Instagram -->
+            <div class="col-6 col-md-3" data-aos="fade-up">
+                <a href="https://www.instagram.com/mochamad.zidan.faizal/" target="_blank">
+                    <img src="picture/images.png"
+                         alt="Instagram"
+                         class="img-fluid"
+                         style="width: 180px; height: 180px; object-fit: contain;">
+                </a>
+                <h5 class="fw-semibold mt-3">Instagram</h5>
+            </div>
+
+            <!-- Facebook -->
+            <div class="col-6 col-md-3" data-aos="fade-up">
+                <a href="https://www.facebook.com/profile.php?id=100090058080125" target="_blank">
+                    <img src="picture/facebook-new.png"
+                         alt="Facebook"
+                         class="img-fluid"
+                         style="width: 180px; height: 180px; object-fit: contain;">
+                </a>
+                <h5 class="fw-semibold mt-3">Facebook</h5>
+            </div>
+
+            <!-- GitHub -->
+            <div class="col-6 col-md-3" data-aos="fade-up">
+                <a href="https://github.com/ZidanFaizal15" target="_blank">
+                    <img src="picture/images (1).png"
+                         alt="gGthub"
+                         class="img-fluid"
+                         style="width: 180px; height: 180px; object-fit: contain;">
+                </a>
+                <h5 class="fw-semibold mt-3">Github</h5>
+            </div>
+
+        </div>
+
+        <div class="about-box">
+            <p class="muted-text">Atau anda Juga bisa menghubungi saya melalui :</p>
+            <p>Email : mochamadzidanfaizal15@gmail.com</p>
+            <p>Whatsapp : +6281225279432</p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="text-center py-3 mt-5">
+        <p>&copy; Made by Mochamad Zidan Faizal using Visual Studio Code.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>
